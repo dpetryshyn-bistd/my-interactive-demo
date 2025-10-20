@@ -7,7 +7,7 @@ let gameRunning = false;
 let timer;
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(1920, 1200);
   noStroke();
   textAlign(CENTER, CENTER);
   textSize(24);
@@ -53,7 +53,7 @@ function draw() {
       
       fill(0, 100, 0);
       textSize(16);
-      text("ІНСТРУКЦІЇ:", xOffset, yStart);
+      text("Інструкція:", xOffset, yStart);
       
      
       textSize(12);
