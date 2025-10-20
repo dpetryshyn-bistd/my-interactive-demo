@@ -7,7 +7,7 @@ let gameRunning = false;
 let timer;
 
 function setup() {
-  createCanvas(1920, 1200);
+  createCanvas(800, 800);
   noStroke();
   textAlign(CENTER, CENTER);
   textSize(24);
